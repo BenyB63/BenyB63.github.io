@@ -1,0 +1,50 @@
+body {
+    background-image: url(../Images/Medieprod_Background.png);
+    background-size: cover;
+}
+
+.Headline {
+    color: gray;
+    padding-left: 28%;
+    padding-top: 2%;
+}
+
+.BL_logo img { 
+    width: 20%;
+    border-radius: 20px;
+}
+
+.Visittkort img { 
+    width: 20%;
+    border-radius: 20px;
+}
+
+
+
+.topnav { 
+    background-color:gray;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .topnav a { 
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 25px;
+  }
+
+.topnav a.active {
+    background-color:dimgray;
+    color: black;
+    padding-left: 42.5px;
+    padding-right: 42.5px;
+}

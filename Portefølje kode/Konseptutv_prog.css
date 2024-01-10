@@ -1,0 +1,27 @@
+.topnav { 
+    background-color:darkcyan;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .topnav a { 
+    color: azure;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 25px;
+  }
+
+.topnav a.active {
+    background-color: black;
+    color: azure;
+    padding-left: 42.5px;
+    padding-right: 42.5px;
+}

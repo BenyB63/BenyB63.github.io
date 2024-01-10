@@ -1,0 +1,62 @@
+body {
+    background-image: url(../Images/background_image.png);
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    color: azure;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.subjectbox {
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.subjectbox a {
+    text-decoration: none;
+    color: azure;
+}
+
+.sbjctbtn {
+    background-color: rgb(25, 38, 48);
+    padding: 10px;
+    border: 2px solid azure;
+    margin: 15px;
+    border-radius: 10px;
+    color: azure;
+}
+.topnav { 
+    background-color:darkcyan;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .topnav a { 
+    color: azure;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 25px;
+  }
+
+.topnav a.active {
+    background-color: black;
+    color: azure;
+    padding-left: 42.5px;
+    padding-right: 42.5px;
+}
