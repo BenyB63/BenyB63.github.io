@@ -1,0 +1,73 @@
+body {
+  background-image: url(../Images/Teknologiforståing_background.png);
+  background-size: cover;
+  align-content: center;
+}
+.Headline {
+  text-align: center;
+  color: white;
+  font-size: 150%; 
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+
+.topnav { 
+    background-color:rgba(255, 255, 255, 0.29);;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .topnav a { 
+    color: azure;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.topnav a.active {
+    background-color: black;
+    color: azure;
+    padding-left: 42.5px;
+    padding-right: 42.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+.NakedBarry img,
+.Puzzle-building img {
+  max-width: 100%;
+  width: 50%; /* Set the maximum width to 100% of the parent container */
+  height: auto; 
+  margin-top: 110px;
+  border-radius: 170px;  /* Maintain the aspect ratio and adjust the height accordingly */
+}
+/* Add this to your Teknologiforståing.css file */
+.container {
+  display: flex;
+  width: 50%; 
+  margin: auto; 
+}
+
+.NakedBarry,
+.Puzzle-building {
+  text-align: center;
+}

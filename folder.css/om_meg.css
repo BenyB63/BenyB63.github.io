@@ -3,15 +3,18 @@ body {
     background-size: cover;
 }
 
-
-
-
-
-
-
+.contact_info {
+  text-align:center;
+  color: azure;
+  padding-top:5px
+}
+.Headline {
+  color: azure;
+  text-align: center;
+}
 
 .topnav { 
-    background-color:darkcyan;
+    background-color:rgb(39, 101, 101, 0.5);
     overflow: hidden;
     text-align: center;
     margin: auto;
@@ -29,6 +32,7 @@ body {
     text-decoration: none;
     font-size: 17px;
     border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
 .topnav a.active {
@@ -36,4 +40,5 @@ body {
     color: azure;
     padding-left: 42.5px;
     padding-right: 42.5px;
+    font-family: Arial, Helvetica, sans-serif;
 }

@@ -1,0 +1,93 @@
+body {
+  background-image: url(../Images/Konseptutv_prog_background_long.png);
+  background-size: cover;
+}
+
+.Headline {
+  color: azure;
+  text-align: center;
+  padding-top:16%
+}
+.arduino_class {
+  text-align: center;
+  padding-top: 200px;
+  color: azure;
+  font-size: 150%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.arduino_img img{
+  display: flex;
+  width: 20%;
+  margin: auto; 
+  border-radius: 25px;
+}
+.html_img img{
+  display: flex;
+  width: 20%;
+  margin: auto; 
+  border-radius: 25px;
+}
+.css_img img{
+  display: flex;
+  width: 20%;
+  margin: auto; 
+  border-radius: 25px;
+}
+.js_img img{
+  display: flex;
+  width: 20%;
+  margin: auto; 
+  border-radius: 25px;
+}
+.css_txt {
+  text-align: center;
+  padding-top: 200px;
+  color: azure;
+  font-size: 150%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.js_txt {
+  text-align: center;
+  padding-top: 200px;
+  color: azure;
+  font-size: 150%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.html_txt{
+  text-align: center;
+  padding-top: 200px;
+  color: azure;
+  font-size: 150%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav { 
+    background-color:rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .topnav a { 
+    color: azure;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.topnav a.active {
+    background-color: black;
+    color: azure;
+    padding-left: 42.5px;
+    padding-right: 42.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
