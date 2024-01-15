@@ -55,12 +55,12 @@ body {
 .NakedBarry img,
 .Puzzle-building img {
   max-width: 100%;
-  width: 50%; /* Set the maximum width to 100% of the parent container */
+  width: 50%; 
   height: auto; 
   margin-top: 110px;
-  border-radius: 170px;  /* Maintain the aspect ratio and adjust the height accordingly */
+  border-radius: 170px;  
 }
-/* Add this to your Teknologiforståing.css file */
+
 .container {
   display: flex;
   width: 50%; 
